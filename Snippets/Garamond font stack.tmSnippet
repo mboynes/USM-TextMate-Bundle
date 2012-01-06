@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Garamond, "Hoefler Text", Times New Roman, Times, serif</string>
+	<key>name</key>
+	<string>Garamond font stack</string>
+	<key>scope</key>
+	<string>source.css,source.scss</string>
+	<key>tabTrigger</key>
+	<string>serif</string>
+	<key>uuid</key>
+	<string>9A749121-8B0B-4513-A7B9-0A79CBF23A87</string>
+</dict>
+</plist>

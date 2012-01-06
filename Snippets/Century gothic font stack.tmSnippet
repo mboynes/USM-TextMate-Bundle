@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>"Century Gothic", "Apple Gothic", sans-serif</string>
+	<key>name</key>
+	<string>Century gothic font stack</string>
+	<key>scope</key>
+	<string>source.css,source.scss</string>
+	<key>tabTrigger</key>
+	<string>sans</string>
+	<key>uuid</key>
+	<string>CA4D7365-4D74-465B-939E-712B2E9E9B5D</string>
+</dict>
+</plist>

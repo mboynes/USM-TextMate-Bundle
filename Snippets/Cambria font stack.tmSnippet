@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Cambria, Georgia, Times, "Times New Roman", serif</string>
+	<key>name</key>
+	<string>Cambria font stack</string>
+	<key>scope</key>
+	<string>source.css,source.scss</string>
+	<key>tabTrigger</key>
+	<string>serif</string>
+	<key>uuid</key>
+	<string>1598063D-7E89-441A-A8C9-B3C3BE171BED</string>
+</dict>
+</plist>

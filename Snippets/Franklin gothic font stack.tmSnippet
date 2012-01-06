@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>"Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif</string>
+	<key>name</key>
+	<string>Franklin gothic font stack</string>
+	<key>scope</key>
+	<string>source.css,source.scss</string>
+	<key>tabTrigger</key>
+	<string>sans</string>
+	<key>uuid</key>
+	<string>6DCBD2B2-A776-4B2E-9419-540691B7FF4D</string>
+</dict>
+</plist>

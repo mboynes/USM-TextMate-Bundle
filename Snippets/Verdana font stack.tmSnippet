@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Verdana, Geneva, Tahoma, sans-serif</string>
+	<key>name</key>
+	<string>Verdana font stack</string>
+	<key>scope</key>
+	<string>source.css,source.scss</string>
+	<key>tabTrigger</key>
+	<string>sans</string>
+	<key>uuid</key>
+	<string>95F940E3-08F5-4B88-BAE8-6977C13180BE</string>
+</dict>
+</plist>

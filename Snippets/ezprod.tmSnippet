@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!-- BEGIN ${1:field_name}_block_tpl --&gt;
+${2:&lt;${3:div} class="${4:$1}"&gt;${5:${1/(?:^|(_))(\w)/(?1: )\u$2/g}: }{$1\}&lt;/${3/(.*?)\b/$1/}&gt;}
+&lt;!-- END $1_block_tpl --&gt;
+&lt;!-- BEGIN no_$1_block_tpl --&gt;
+$6
+&lt;!-- END no_$1_block_tpl --&gt;
+$0</string>
+	<key>name</key>
+	<string>ezprod</string>
+	<key>tabTrigger</key>
+	<string>ezp</string>
+	<key>uuid</key>
+	<string>FE8E20B3-AB14-4603-BBD7-5A7ED29DE284</string>
+</dict>
+</plist>

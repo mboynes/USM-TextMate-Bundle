@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;article&gt;
+	&lt;title&gt;$1&lt;/title&gt;
+	&lt;contents&gt;&lt;![CDATA[$2]]&gt;&lt;/contents&gt;
+	&lt;parent&gt;$3&lt;/parent&gt;${4:
+	&lt;permalink&gt;${5:/${1/([^-_A-Z0-9]+)|([-_A-Z0-9])/(?1:-:\L$2)/gi}/}&lt;/permalink&gt;}${6:
+	&lt;meta_title&gt;$7&lt;/meta_title&gt;
+	&lt;meta_description&gt;$8&lt;/meta_description&gt;${9:
+	&lt;meta_keywords&gt;$10&lt;/meta_keywords&gt;}}
+&lt;/article&gt;
+$0</string>
+	<key>name</key>
+	<string>XML article block</string>
+	<key>tabTrigger</key>
+	<string>article</string>
+	<key>uuid</key>
+	<string>0BA2787F-5D01-41D3-AF1E-8684C0CF02EB</string>
+</dict>
+</plist>

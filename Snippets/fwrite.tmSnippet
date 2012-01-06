@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$filename = ${1:'test.txt'};
+\$content = ${2:"Add this to the file\n"};
+
+if ( is_writable(\$filename) &amp;&amp; \$handle = fopen(\$filename, 'a') &amp;&amp; fwrite(\$handle, \$content) !== FALSE ) {
+	${3:# success}
+}
+else {
+	${4:# failure}
+}
+@fclose(\$handle);$0</string>
+	<key>name</key>
+	<string>fwrite</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>fwrite</string>
+	<key>uuid</key>
+	<string>CDF04A4F-7D36-40EE-9D61-66C2C2B8B5C8</string>
+</dict>
+</plist>

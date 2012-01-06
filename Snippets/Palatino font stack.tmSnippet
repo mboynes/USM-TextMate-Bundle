@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif</string>
+	<key>name</key>
+	<string>Palatino font stack</string>
+	<key>scope</key>
+	<string>source.css,source.scss</string>
+	<key>tabTrigger</key>
+	<string>serif</string>
+	<key>uuid</key>
+	<string>BCBE385B-DF51-4FE5-8553-99C95EDF5C7E</string>
+</dict>
+</plist>

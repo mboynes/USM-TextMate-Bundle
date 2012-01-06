@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>bundlePath</key>
+	<string>/Users/kumar/Library/Application Support/TextMate/Bundles/Custom.tmbundle</string>
+	<key>command</key>
+	<string>if grep &lt;&lt;&lt;${TM_CURRENT_WORD:-!} -Esq '^[a-zA-Z0-9_]+$'
+	then
+		URL="http://codex.wordpress.org/Function_Reference/$TM_CURRENT_WORD"
+		exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=$URL'&gt;"
+	else echo "Nothing to lookup (hint: place the caret on a function name)"
+fi</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^H</string>
+	<key>name</key>
+	<string>Documentation for WordPress Function</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>7F2C0C81-F214-4A70-A66F-DF1D65D7A686</string>
+</dict>
+</plist>

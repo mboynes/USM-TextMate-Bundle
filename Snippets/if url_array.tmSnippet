@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (\$url_array[${1:3}]${2: == '${3:articleid}'})${4: {
+	$5
+\}}$0</string>
+	<key>name</key>
+	<string>if url_array</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>ifu</string>
+	<key>uuid</key>
+	<string>4B913A32-C3BC-42DF-9631-B34731F5E43D</string>
+</dict>
+</plist>

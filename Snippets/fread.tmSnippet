@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$filename = ${1:'file.txt'};
+\$handle = fopen(\$filename, 'r');
+\$contents = fread(\$handle, filesize(\$filename));
+fclose(\$handle);
+$0</string>
+	<key>name</key>
+	<string>fread</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>fread</string>
+	<key>uuid</key>
+	<string>7998F328-AD07-4869-91A4-2C982C349395</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$user =&amp; eZUser::currentUser();$0</string>
+	<key>name</key>
+	<string>Current User</string>
+	<key>tabTrigger</key>
+	<string>user</string>
+	<key>uuid</key>
+	<string>4EC06CB8-5ECF-48B8-9C0F-52EF82B2089D</string>
+</dict>
+</plist>

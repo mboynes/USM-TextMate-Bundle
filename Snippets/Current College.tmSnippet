@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$college =&amp; eZCollege::currentCollege();$0</string>
+	<key>name</key>
+	<string>Current College</string>
+	<key>tabTrigger</key>
+	<string>college</string>
+	<key>uuid</key>
+	<string>2B57A54E-0DFB-4C17-9AC2-369BBE7A9269</string>
+</dict>
+</plist>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findString</key>
+				<string>^(\d+)\.0\s+(.*)$</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>&lt;category&gt;
+	&lt;title&gt;$2&lt;/title&gt;
+	&lt;id&gt;category$1&lt;/id&gt;
+&lt;/category&gt;
+&lt;article&gt;
+	&lt;title&gt;$2&lt;/title&gt;
+	&lt;parent&gt;category$1&lt;/parent&gt;
+	&lt;contents&gt;&lt;/contents&gt;
+	&lt;permalink&gt;&lt;/permalink&gt;
+&lt;/article&gt;</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findString</key>
+				<string>^(\d+)\.\d+\s+(.*)$</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>&lt;article&gt;
+	&lt;title&gt;$2&lt;/title&gt;
+	&lt;parent&gt;category$1&lt;/parent&gt;
+	&lt;contents&gt;&lt;/contents&gt;
+	&lt;permalink&gt;&lt;/permalink&gt;
+&lt;/article&gt;</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>Sitemap XML Converter</string>
+	<key>uuid</key>
+	<string>605D2C94-C69A-4EE0-BCCE-F212A12B2C52</string>
+</dict>
+</plist>

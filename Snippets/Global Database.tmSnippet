@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$db =&amp; eZDB::globalDatabase();$0</string>
+	<key>name</key>
+	<string>Global Database</string>
+	<key>tabTrigger</key>
+	<string>db</string>
+	<key>uuid</key>
+	<string>E4222A0B-D161-4711-BF66-D7AFB42B09D6</string>
+</dict>
+</plist>

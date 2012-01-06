@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;category&gt;
+	&lt;title&gt;$1&lt;/title&gt;
+	&lt;id&gt;$2&lt;/id&gt;${3:
+	&lt;description&gt;$4&lt;/description&gt;}${5:
+	&lt;section&gt;$6&lt;/section&gt;}${7:
+	&lt;parent&gt;$8&lt;/parent&gt;}${9:
+	&lt;permalink&gt;${10:/${1/([^-_A-Z0-9]+)|([-_A-Z0-9])/(?1:-:\L$2)/gi}/}&lt;/permalink&gt;}
+&lt;/category&gt;
+$0</string>
+	<key>name</key>
+	<string>XML category block</string>
+	<key>tabTrigger</key>
+	<string>category</string>
+	<key>uuid</key>
+	<string>C98BFD3C-C2E3-42EA-BB97-9A9DD61467EA</string>
+</dict>
+</plist>

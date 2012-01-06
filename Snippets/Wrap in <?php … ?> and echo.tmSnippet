@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo $TM_SELECTED_TEXT; ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^E</string>
+	<key>name</key>
+	<string>Wrap in &lt;?php … ?&gt; and echo</string>
+	<key>scope</key>
+	<string>text.html,</string>
+	<key>uuid</key>
+	<string>869C31F1-0E9B-4350-8982-E35D261B2961</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="/ezstatic/data/${1:default}/${2:i}/$3" alt="${4:${3/([^\.A-Z0-9]+)|(\.(?:jpg|gif|jpeg|png))|([-A-Z0-9])/(?1: :(?2::$3))/gi}}" /&gt;$0</string>
+	<key>name</key>
+	<string>ezstatic image</string>
+	<key>tabTrigger</key>
+	<string>ezstimg</string>
+	<key>uuid</key>
+	<string>B555EEC0-553E-4D19-8672-12644ABB130A</string>
+</dict>
+</plist>
