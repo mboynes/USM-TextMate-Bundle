@@ -11,7 +11,7 @@ $6
 &lt;!-- END no_$1_block_tpl --&gt;
 $0</string>
 	<key>name</key>
-	<string>ezprod</string>
+	<string>eZProddir Template Block</string>
 	<key>tabTrigger</key>
 	<string>ezp</string>
 	<key>uuid</key>

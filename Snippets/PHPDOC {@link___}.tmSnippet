@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundlePath</key>
+	<string>/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle</string>
+	<key>content</key>
+	<string>{@link ${1:http://some-link.com/path/} ${2:Link Text}}</string>
+	<key>name</key>
+	<string>PHPDOC {@link...}</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>@</string>
+	<key>uuid</key>
+	<string>72F83FE4-5FEA-4F84-882B-A0EAA56DCC33</string>
+</dict>
+</plist>

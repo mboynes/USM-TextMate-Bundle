@@ -14,6 +14,7 @@
 			<string>AAC3BE0C-FBA6-4633-BD3C-51EEC137F64F</string>
 			<string>76836A20-C6C0-473E-9AE8-DB3DB38F381C</string>
 			<string>69D3CA43-8412-414C-9324-03F7159891D7</string>
+			<string>B5AEB568-0FBA-451F-A6BA-C0ABB10AEEF2</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -47,16 +48,6 @@
 				<key>name</key>
 				<string>eZTemplate</string>
 			</dict>
-			<key>4FE4C852-7182-4D42-B2FB-F8E795B0506E</key>
-			<dict>
-				<key>items</key>
-				<array>
-					<string>0DC87EB8-38A4-4847-B326-250440E5747B</string>
-					<string>B555EEC0-553E-4D19-8672-12644ABB130A</string>
-				</array>
-				<key>name</key>
-				<string>HTML Snippets</string>
-			</dict>
 			<key>56CD2AC0-6504-40A6-864D-A25EBB426A15</key>
 			<dict>
 				<key>items</key>
@@ -81,6 +72,13 @@
 				</array>
 				<key>name</key>
 				<string>Misc</string>
+			</dict>
+			<key>6C19247C-E9DB-48EB-91F2-30E6309AD2D7</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>PHPDOC</string>
 			</dict>
 			<key>6D282A2A-EB45-4D6E-9276-C0F820C0BC96</key>
 			<dict>
@@ -110,10 +108,20 @@
 				<key>name</key>
 				<string>JavaScript</string>
 			</dict>
+			<key>B5AEB568-0FBA-451F-A6BA-C0ABB10AEEF2</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F3B14F9C-BCC6-439E-B5B3-29686B25E216</string>
+				</array>
+				<key>name</key>
+				<string>Ogre</string>
+			</dict>
 			<key>C6C9027F-7C2C-4089-A57F-1A6DB82422A4</key>
 			<dict>
 				<key>items</key>
 				<array>
+					<string>6C19247C-E9DB-48EB-91F2-30E6309AD2D7</string>
 					<string>DB55A41D-390C-4368-9888-6FD40736EE1B</string>
 					<string>97BC815A-B2DA-4587-8393-A834C6DD813F</string>
 					<string>40F03B5E-7EAA-42E0-89AD-F38D889CE405</string>
@@ -167,11 +175,12 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>0DC87EB8-38A4-4847-B326-250440E5747B</string>
+					<string>B555EEC0-553E-4D19-8672-12644ABB130A</string>
+					<string>ECA854B5-028E-480C-8CC3-FDA9FC4ECACA</string>
 					<string>399C96E9-BEA6-4780-9C31-8EC857629C74</string>
 					<string>56CD2AC0-6504-40A6-864D-A25EBB426A15</string>
 					<string>6D282A2A-EB45-4D6E-9276-C0F820C0BC96</string>
-					<string>4FE4C852-7182-4D42-B2FB-F8E795B0506E</string>
-					<string>ECA854B5-028E-480C-8CC3-FDA9FC4ECACA</string>
 				</array>
 				<key>name</key>
 				<string>eZPublish</string>
@@ -193,6 +202,10 @@
 		<string>4DFB0EE6-E7AD-4C20-BA35-1B4AEE608804</string>
 		<string>869C31F1-0E9B-4350-8982-E35D261B2961</string>
 		<string>D0B73327-7EAD-4EAA-9C21-C010266D3E26</string>
+		<string>5C1C733E-D247-4DA0-89A7-EBFD9FFFEF2E</string>
+		<string>FA0867E8-BC00-47F2-832F-02C3E3E1E274</string>
+		<string>4624F43A-1731-4F3B-8A4D-11497912651C</string>
+		<string>72F83FE4-5FEA-4F84-882B-A0EAA56DCC33</string>
 		<string>D7E60F5A-AF6D-40FC-8172-0047DB59E63F</string>
 		<string>F4713E9F-4551-415E-A979-6F0100D9D6DD</string>
 		<string>FE8E20B3-AB14-4603-BBD7-5A7ED29DE284</string>
@@ -242,6 +255,7 @@
 		<string>B2914FBB-1824-4FA7-B582-19CC9BDABFD7</string>
 		<string>F64D796C-38BF-467C-ADF6-9F6401AD5560</string>
 		<string>7BA35212-BF50-40BE-A20C-79B25BC3C221</string>
+		<string>F3B14F9C-BCC6-439E-B5B3-29686B25E216</string>
 	</array>
 	<key>uuid</key>
 	<string>5FCAB5A7-438E-4C50-8274-F4D6A8E02384</string>
