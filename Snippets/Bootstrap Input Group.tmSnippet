@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="control-group"&gt;
+	&lt;label class="control-label" for="${2:${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}}"&gt;$1&lt;/label&gt;
+	&lt;div class="controls"&gt;
+		&lt;input type="${3:text/file/password}" name="${4:$2}"${5: value="$8"} id="${2}" class="${6:span3}" /&gt;
+		&lt;p class="help-block"&gt;${7:Supporting help text}&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;$0</string>
+	<key>name</key>
+	<string>Bootstrap Input Group</string>
+	<key>tabTrigger</key>
+	<string>bsinput</string>
+	<key>uuid</key>
+	<string>4694E734-61AA-40FB-A89E-331765624CE4</string>
+</dict>
+</plist>

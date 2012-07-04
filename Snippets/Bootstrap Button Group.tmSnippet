@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="form-actions"&gt;
+	&lt;input value="$1" type="${2:submit}"${3: name="${4:${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}}"} class="btn${5: btn-primary}" /&gt;$0
+&lt;/div&gt;</string>
+	<key>name</key>
+	<string>Bootstrap Button Group</string>
+	<key>tabTrigger</key>
+	<string>bsactions</string>
+	<key>uuid</key>
+	<string>A475A590-F24A-40B8-AF5B-00B144AAFCA9</string>
+</dict>
+</plist>

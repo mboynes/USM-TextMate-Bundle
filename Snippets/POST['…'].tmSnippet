@@ -3,12 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/${1:1.7.1}/jquery.min.js"&gt;&lt;/script&gt;$0</string>
+	<string>\$_POST['${1:variable}']</string>
 	<key>name</key>
-	<string>jquery</string>
+	<string>POST['…']</string>
+	<key>scope</key>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>jquery</string>
+	<string>post</string>
 	<key>uuid</key>
-	<string>5F792063-B774-4A20-84B0-81E9A62B1154</string>
+	<string>A9C9F730-BE8A-4532-BAA6-2C2E72E33879</string>
 </dict>
 </plist>

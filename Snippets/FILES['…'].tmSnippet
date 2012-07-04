@@ -3,12 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/${1:1.7.1}/jquery.min.js"&gt;&lt;/script&gt;$0</string>
+	<string>\$_FILES['${1:variable}']${2:['${3:name/type/size/tmp_name/error}']}</string>
 	<key>name</key>
-	<string>jquery</string>
+	<string>FILES['…']</string>
+	<key>scope</key>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>jquery</string>
+	<string>files</string>
 	<key>uuid</key>
-	<string>5F792063-B774-4A20-84B0-81E9A62B1154</string>
+	<string>14CB0378-890D-4A2E-8BDB-A5A3C5198819</string>
 </dict>
 </plist>
