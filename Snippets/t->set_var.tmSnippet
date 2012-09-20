@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$t-&gt;set_var('$1', ${2:\$$1});$0</string>
+	<string>\$t-&gt;set_var( '$1', ${2:\$$1} );$0</string>
 	<key>name</key>
 	<string>t-&gt;set_var</string>
 	<key>scope</key>

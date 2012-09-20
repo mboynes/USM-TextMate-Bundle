@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$t-&gt;block('${1:${2:item}_tpl}'${3:, ${4:true}});$0</string>
+	<string>\$t-&gt;block( '${1:${2:item}_tpl}'${3:, ${4:true}} );$0</string>
 	<key>name</key>
 	<string>t-&gt;block</string>
 	<key>scope</key>
